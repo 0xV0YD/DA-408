@@ -1,0 +1,57 @@
+$date
+	Thu Sep  4 23:35:24 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module mac_tb $end
+$var wire 16 ! y [15:0] $end
+$var reg 8 " a [7:0] $end
+$var reg 8 # b [7:0] $end
+$var reg 16 $ c [15:0] $end
+$var reg 1 % clk $end
+$scope module uut $end
+$var wire 8 & a [7:0] $end
+$var wire 8 ' b [7:0] $end
+$var wire 16 ( c [15:0] $end
+$var wire 1 % clk $end
+$var reg 16 ) y [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx )
+b101 (
+b100 '
+b11 &
+0%
+b101 $
+b100 #
+b11 "
+bx !
+$end
+#5000
+b10001 !
+b10001 )
+1%
+#10000
+0%
+b111 $
+b111 (
+b10 #
+b10 '
+b1010 "
+b1010 &
+#15000
+b11011 !
+b11011 )
+1%
+#20000
+0%
